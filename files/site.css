@@ -89,7 +89,7 @@ i {
     z-index: 1;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 640px;
     height: 100%;
 }
 
@@ -292,10 +292,9 @@ div.close i {
 
 .main_ft {
     position: absolute;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%, 0);
-    width: 86%;
+    left: 45px;
+    top: 200px;
+    width: 550px;
     display: block;
 }
 
@@ -433,12 +432,12 @@ div.close i {
     background: rgba(9, 12, 47, 0.3);
 }
 
-.satnav-list li:nth-child(1) {
+/*.satnav-list li:nth-child(1) {
     background: url(./huaiying.png) no-repeat;
     background-size: 100% 100%;
-}
+}*/
 
-.satnav-list li:nth-child(2) {
+.satnav-list li:nth-child(1) {
     background: url(./richeng.png) no-repeat;
     background-size: 100% 100%;
 }
@@ -448,12 +447,12 @@ div.close i {
     background-size: 100% 100%;
 } */
 
-.satnav-list li:nth-child(3) {
+.satnav-list li:nth-child(2) {
     background: url(./wuliudahui.png) no-repeat;
     background-size: 100% 100%;
 }
 
-.satnav-list li:nth-child(4) {
+.satnav-list li:nth-child(3) {
     background: url(./yewu.png) no-repeat;
     background-size: 100% 100%;
 }
@@ -463,17 +462,17 @@ div.close i {
     background-size: 100% 100%;
 } */
 
-.satnav-list li:nth-child(6) {
+.satnav-list li:nth-child(5) {
     background: url(./canyin.png) no-repeat;
     background-size: 100% 100%;
 }
 
-.satnav-list li:nth-child(8) {
+.satnav-list li:nth-child(7) {
     background: url(./huiwu.png) no-repeat;
     background-size: 100% 100%;
 }
 
-.satnav-list li:nth-child(9) {
+/*.satnav-list li:nth-child(9) {
     background: url(./zhichi.png) no-repeat;
     background-size: 100% 100%;
 }
@@ -486,7 +485,7 @@ div.close i {
 .satnav-list li:nth-child(12) {
     background: url(./guanli.png) no-repeat;
     background-size: 100% 100%;
-}
+}*/
 
 
 /*表格样式*/
@@ -1064,13 +1063,12 @@ tr.blue-bg td:last-child {
 
 .anipulse {
     position: absolute;
-    left: 50%;
+    left: 150px;
     top: 42%;
     z-index: 999;
     display: block;
     width: 339px;
     height: 70px;
-    margin-left: -170px;
     font-weight: 900;
     animation: pulse 2s infinite linear;
     -webkit-animation: pulse 2s infinite linear;

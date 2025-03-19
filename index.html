@@ -19,22 +19,21 @@
     !
       function (userAgent) {
         var screen_w = parseInt(window.screen.width),
-          // scale = screen_w / 640;  // 0.671875
-          scale = 0.671875;
+          scale = screen_w / 640;
         if (/Android (\d+\.\d+)/.test(userAgent)) {
           var version = parseFloat(RegExp.$1);
-          document.write(version > 2.3 ? '<meta name="viewport" content="width=100%, initial-scale = ' + scale +
+          document.write(version > 2.3 ? '<meta name="viewport" content="width=640, initial-scale = ' + scale +
             ',user-scalable=1, minimum-scale = ' + scale + ', maximum-scale = ' + scale + ', target-densitydpi=device-dpi">' :
-            '<meta name="viewport" content="width=100%, target-densitydpi=device-dpi">');
+            '<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
         } else {
           isios = true;
-          document.write('<meta name="viewport" content="width=100%, initial-scale = ' + scale + ' ,minimum-scale = ' + scale +
+          document.write('<meta name="viewport" content="width=640, initial-scale = ' + scale + ' ,minimum-scale = ' + scale +
             ', maximum-scale = ' + scale + ', user-scalable=no, target-densitydpi=device-dpi">');
         }
       }(navigator.userAgent);
   </script>
   <meta name="viewport"
-    content="width=100%, initial-scale = 0.671875 ,minimum-scale = 0.671875, maximum-scale = 0.671875, user-scalable=no, target-densitydpi=device-dpi">
+    content="width=640, initial-scale = 0.671875 ,minimum-scale = 0.671875, maximum-scale = 0.671875, user-scalable=no, target-densitydpi=device-dpi">
   <link rel="stylesheet" href="./files/site.css">
   <link rel="stylesheet" href="./files/animate.min.css">
   <link rel="stylesheet" href="./files/font-awesome.min.css">
@@ -95,7 +94,7 @@
         style="position: absolute;left: 0;top: 0;width: 100%;height: 100%; background: url(files/bb.jpg) no-repeat bottom center; background-size: 100% auto">
       </div>
       <!--<img src="img/bg/fhcx.png?v3" width="115" style="position: absolute; left: 75%; bottom: 28%;" onclick="javascript:history.back(-1);"/>-->
-      <img class="main_ft" style="z-index: 1;" src="./files/title.png">
+      <!--<img class="main_ft" style="z-index: 1;" src="./files/title.png">-->
       <div class="anipulse" style="top:37%;">
         <a class="tomulu dv"
           style="letter-spacing: 5.9px; width: 100%; height: 100%; text-align: center; line-height: 2.6; font-size: 2rem;">
@@ -121,10 +120,10 @@
         <ul class="satnav-list">
           <!--<li>
 							<a title="0">首页</a>
-						</li>-->
+						</li>
           <li>
             <a title="2">致合作伙伴的一封信</a>
-          </li>
+          </li>-->
           <li>
             <a title="3">会务须知及日程安排</a>
           </li>
@@ -216,13 +215,12 @@
           <li>
             <a title="20">会务工作组联系方式</a>
           </li>
-          <li class="menu_open">
+          <!--<li class="menu_open">
             <a>特别鸣谢<i class="fa fa-chevron-down"></i></a>
           </li>
           <li class="left_menu_sm">
-            <!--<a title="30">北京建工集团</a>-->
             <a title="22" style="width: calc(100% - 50px);">福田康明斯</a>
-          </li>
+          </li> -->
           <!-- <li>
                         <a title="37">供应商异议申诉管理</a>
                     </li> -->
@@ -5066,9 +5064,9 @@
   <div class="left-panel">
     <div class="left_container">
       <ul class="left_menu">
-        <li>
+        <!--<li>
           <a title="2">致合作伙伴的一封信</a>
-        </li>
+        </li>-->
         <li>
           <a title="3">会务须知及日程安排</a>
         </li>
@@ -5160,13 +5158,12 @@
         <li>
           <a title="20">会务工作组联系方式</a>
         </li>
-        <li class="menu_open">
+        <!--<li class="menu_open">
           <a>特别鸣谢<i class="fa fa-chevron-down"></i></a>
         </li>
         <li class="left_menu_sm" style="    text-align: center;">
-          <!--<a title="30">北京建工集团</a>-->
           <a title="22">福田康明斯</a>
-        </li>
+        </li>-->
       </ul>
     </div>
   </div>
@@ -5182,9 +5179,9 @@
   <div class="back-pt close" style="right: 5%; bottom: 92%;">
     返回
   </div>
-  <div class="ft-logo" style="top:2.5%;left:-60%">
+  <!--<div class="ft-logo" style="top:2.5%;left:-60%">
     <img src="./files/logo2020.png">
-  </div>
+  </div>-->
 
   <!--<div class="approveBox page">
 			<div class="approveContent">
