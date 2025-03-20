@@ -1064,16 +1064,20 @@ tr.blue-bg td:last-child {
 
 .anipulse {
     position: absolute;
-    left: 150px;
+    left: 50%;
     top: 42%;
     z-index: 999;
     display: block;
     width: 339px;
     height: 70px;
+    transform: translate(-50%, 0);
     font-weight: 900;
+    text-align: center;
+}
+.anipulse a{
+    display: block;
     animation: pulse 2s infinite linear;
     -webkit-animation: pulse 2s infinite linear;
-    text-align: center;
 }
 .tct {
     text-align: justify;
