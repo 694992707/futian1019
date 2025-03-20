@@ -89,7 +89,7 @@ i {
     z-index: 1;
     left: 0;
     top: 0;
-    width: 640px;
+    width: 100%;
     height: 100%;
 }
 
@@ -137,7 +137,7 @@ i {
 /*悬浮菜单*/
 .height-pt,
 .back-pt {
-    background: rgba(97, 194, 255, 1);
+    background: rgba(7, 117, 163, 0.8);
     /* border: rgba(5, 181, 254) 1px solid; */
     padding: 8px 10px;
     position: fixed;
@@ -145,7 +145,7 @@ i {
     border-radius: 5px;
     display: none;
     border-bottom: rgba(13, 90, 115, .6) 2px solid;
-    /*background-image: linear-gradient(to top right, #05b5fe, #00396f);*/
+    background-image: linear-gradient(to top right, #05b5fe, #00396f);
 }
 .back-dd{
     background: rgba(97, 194, 255, 1);
@@ -224,7 +224,6 @@ div.close i {
     /*left: -362px;*/
     top: 0;
     height: 100%;
-    /*background: rgba(0, 0, 0, 0.3);*/
     border-right: rgba(0, 0, 0, 0.8) 2px solid;
     transition: left 0.5s;
     -moz-transition: left 0.3s;
