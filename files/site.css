@@ -292,9 +292,10 @@ div.close i {
 
 .main_ft {
     position: absolute;
-    left: 45px;
+    left: 50%;
     top: 200px;
-    width: 550px;
+    width: 80%;
+    transform: translate(-50%, 0);
     display: block;
 }
 
