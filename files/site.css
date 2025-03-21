@@ -137,7 +137,7 @@ i {
 /*悬浮菜单*/
 .height-pt,
 .back-pt {
-    background: rgba(7, 117, 163, 0.8);
+    background: rgba(97, 194, 255, 1);
     /* border: rgba(5, 181, 254) 1px solid; */
     padding: 8px 10px;
     position: fixed;
@@ -145,7 +145,7 @@ i {
     border-radius: 5px;
     display: none;
     border-bottom: rgba(13, 90, 115, .6) 2px solid;
-    background-image: linear-gradient(to top right, #05b5fe, #00396f);
+    /*background-image: linear-gradient(to top right, #05b5fe, #00396f);*/
 }
 .back-dd{
     background: rgba(97, 194, 255, 1);
@@ -157,7 +157,6 @@ i {
 
     border-bottom: rgba(13, 90, 115, .6) 2px solid;
     /*background-image: linear-gradient(to top right, #05b5fe, #00396f);*/
-    position: fixed;
 }
 .back-pt {
     bottom: 105PX;
